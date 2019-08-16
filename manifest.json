@@ -1,0 +1,11 @@
+{
+    "name": "Fix Space Cycle",
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "matches": ["https://www.spacecycle.com/profile.php?*"],
+            "js": ["fix_space_cycle.js"]
+        }
+    ],
+    "manifest_version": 2
+}
